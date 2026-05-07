@@ -1,9 +1,9 @@
-﻿# School Management System
+# School Management System
 
 Sistema web de gestión escolar desarrollado con Node.js, MySQL y JavaScript.
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AnaSLopezz/school-management-system)
-![GitHub last commit](https://img.shields.io/github/last-commit/AnaSLopezz/school-management-system)
+![GitHub repo size](https://img.shields.io/github/repo-size/TomasBuitragoL11/School-Managment-System.git)
+![GitHub last commit](https://img.shields.io/github/last-commit/TomasBuitragoL11/School-Managment-System.gitm)
 
 ## Descripción
 
@@ -28,7 +28,7 @@ Plataforma educativa integral que permite la gestión de estudiantes, profesores
 ## Instalación
 
 ```bash
-git clone https://github.com/AnaSLopezz/school-management-system
+git clone https://github.com/TomasBuitragoL11/school-management-system
 cd school-management-system/backend
 npm install
 node server.js
@@ -46,6 +46,8 @@ Crear un archivo `.env` en la carpeta `backend`
 | Profesor | carlos@colegio.edu | 123456 |
 | Estudiante | andres@colegio.edu | 123456 |
 
-## Autor
+## Autores
 
 Ana Lopez — [GitHub](https://github.com/AnaSLopezz)
+Tomas Buitrago - [GitHub](https://github.com/TomasBuitragoL11)
+
