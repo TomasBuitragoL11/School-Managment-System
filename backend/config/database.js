@@ -25,9 +25,9 @@ const db = pool.promise();
 // Verificamos que la conexión funciona
 pool.getConnection((err, connection) => {
   if (err) {
-    console.error('❌ Error conectando a MySQL:', err.message);
+    console.error('Error conectando a MySQL:', err.message);
   } else {
-    console.log('✅ Conexión a MySQL exitosa');
+    console.log('Conexión a MySQL exitosa');
     connection.release(); // Liberamos la conexión
   }
 });

@@ -30,7 +30,7 @@ app.use('/api/horarios',  horarioRoutes);
 
 app.get('/api/health', (req, res) => res.json({ mensaje: '¡Servidor funcionando!' }));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
-  console.log(`✅ Servidor corriendo en http://localhost:${PORT}`);
+  console.log(` Servidor corriendo en http://localhost:${PORT}`);
 });

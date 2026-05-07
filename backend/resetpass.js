@@ -13,7 +13,7 @@ async function resetear() {
   await db.query(`UPDATE usuarios SET contrasena=? WHERE email='laura@colegio.edu'`, [hashEst]);
   await db.query(`UPDATE usuarios SET contrasena=? WHERE email='pedro@colegio.edu'`, [hashEst]);
 
-  console.log('✅ Contraseñas actualizadas correctamente');
+  console.log('Contraseñas actualizadas correctamente');
   process.exit();
 }
 

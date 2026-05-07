@@ -1,6 +1,6 @@
 // frontend/js/auth.js
 
-const API = 'http://localhost:3000/api';
+const API = 'http://localhost:3002/api';
 
 // Cambiar entre tabs de Login y Registro
 function mostrarTab(tab) {
@@ -40,7 +40,7 @@ async function handleLogin(event) {
     localStorage.setItem('token', datos.token);
     localStorage.setItem('usuario', JSON.stringify(datos.usuario));
     
-    // ✅ CORRECCIÓN: ruta correcta al dashboard
+    // CORRECCIÓN: ruta correcta al dashboard
     window.location.href = 'dashboard.html';
     
   } catch (error) {
@@ -91,7 +91,7 @@ async function handleRegistro(event) {
   }
 }
 
-// ✅ CORRECCIÓN: emails correctos de la base de datos
+// CORRECCIÓN: emails correctos de la base de datos
 function loginDemo(rol) {
   const credenciales = {
     admin:      { email: 'admin@colegio.edu',  password: 'admin123' },

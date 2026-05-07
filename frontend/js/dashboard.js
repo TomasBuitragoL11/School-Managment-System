@@ -1,6 +1,6 @@
 // frontend/js/dashboard.js
 
-const API = 'http://localhost:3000/api';
+const API = 'http://localhost:3002/api';
 
 function getToken() {
   return localStorage.getItem('token');
@@ -35,7 +35,7 @@ function mostrarToast(mensaje, tipo = 'success') {
     toast.style.opacity = '0';
     toast.style.transition = 'opacity 0.3s';
     setTimeout(() => toast.remove(), 300);
-  }, 3000);
+  }, 3002);
 }
 
 function abrirModal(titulo, contenidoHTML) {
